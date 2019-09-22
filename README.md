@@ -5,13 +5,26 @@
 [![License](https://img.shields.io/cocoapods/l/BadgeSegments.svg?style=flat)](https://cocoapods.org/pods/BadgeSegments)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSegments.svg?style=flat)](https://cocoapods.org/pods/BadgeSegments)
 
+## ScreenShots
+
+**standard**
+
+![alt text](https://raw.githubusercontent.com/Mor4eza/BadgeSegments/master/screenshot1.png)
+
+
+
+**Underlined**
+
+![alt text](https://raw.githubusercontent.com/Mor4eza/BadgeSegments/master/screenshot2.png)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-- Swift 5
-- iOS =>10
+- Swift => 5
+- iOS => 10
 
 ## Installation
 **Cocoapods**
@@ -73,7 +86,13 @@ simply copy classes folder to your project directory
 # Made with Love in 🇮🇷
 Morteza Gharedaghi: Morteza.ghrdi@gmail.com
 
+feel free to create issue or open a pull request ☺️
 
+
+# Used in
+send your application name to me,if you used this library 
+
+- Wink App
 
 ## License
 
