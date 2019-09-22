@@ -13,7 +13,7 @@ protocol SegmentItems {
     var isSelected: Bool {get set}
 }
 
-struct SegmentItem: SegmentItems {
+public struct SegmentItem: SegmentItems {
     var title: String
     var isSelected: Bool
     var badgeNumber: Int

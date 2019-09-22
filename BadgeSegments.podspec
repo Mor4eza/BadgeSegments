@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BadgeSegments'
   s.version          = '0.1.0'
-  s.summary          = 'https://github.com/Mor4eza/BadgeSegments'
+  s.summary          = 'A customizable Segment View with Badges'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A customizable Segment View with Badges writen in swift 5 and easy to use'
+  s.swift_version = '5.0'
 
   s.homepage         = 'https://github.com/mor4eza/BadgeSegments'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'morteza gharedaghi' => 'Morteza.ghrdi@gmail.com' }
-  s.source           = { :git => 'https://github.com/mor4eza/BadgeSegments.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/mor4eza'
+  s.author           = { ' ' => 'Morteza.ghrdi@gmail.com' }
+  s.source           = { :git => 'https://github.com/Mor4eza/BadgeSegments.git', :tag => s.version.to_s }
+#  s.social_media_url = 'https://twitter.com/mor4eza'
 
   s.ios.deployment_target = '10.0'
 

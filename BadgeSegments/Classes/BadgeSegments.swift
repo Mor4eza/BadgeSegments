@@ -13,7 +13,7 @@ protocol BadgeSegmentDelegate {
 }
 
 @IBDesignable
-class BadgeSegment: UIControl {
+class BadgeSegments: UIControl {
     
     fileprivate var items: [SegmentItem]!
     fileprivate var stackView = UIStackView()

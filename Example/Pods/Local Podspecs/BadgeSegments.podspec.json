@@ -1,22 +1,23 @@
 {
   "name": "BadgeSegments",
   "version": "0.1.0",
-  "summary": "A short description of BadgeSegments.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/morteza.ghrdi@gmail.com/BadgeSegments",
+  "summary": "A customizable Segment View with Badges",
+  "description": "A customizable Segment View with Badges writen in swift 5 and easy to use",
+  "homepage": "https://github.com/mor4eza/BadgeSegments",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "morteza.ghrdi@gmail.com": "Morteza.ghrdi@gmail.com"
+    " ": "Morteza.ghrdi@gmail.com"
   },
   "source": {
-    "git": "https://github.com/morteza.ghrdi@gmail.com/BadgeSegments.git",
+    "git": "https://github.com/Mor4eza/BadgeSegments.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/mor4eza",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "BadgeSegments/Classes/**/*"
 }

@@ -3,9 +3,4 @@ use_frameworks!
 target 'BadgeSegments_Example' do
   pod 'BadgeSegments', :path => '../'
 
-  target 'BadgeSegments_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

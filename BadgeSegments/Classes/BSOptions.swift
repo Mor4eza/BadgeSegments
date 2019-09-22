@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum BSAppearence {
+public enum BSAppearence {
     case standard
     case underlined
 }
