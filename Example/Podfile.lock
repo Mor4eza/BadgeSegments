@@ -1,0 +1,16 @@
+PODS:
+  - BadgeSegments (0.1.0)
+
+DEPENDENCIES:
+  - BadgeSegments (from `../`)
+
+EXTERNAL SOURCES:
+  BadgeSegments:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BadgeSegments: 63365f6667728718707707aaf23ef8758bfc1b4c
+
+PODFILE CHECKSUM: e3d662ca9083a86b78a4bb36b62a48d6f2022205
+
+COCOAPODS: 1.6.2

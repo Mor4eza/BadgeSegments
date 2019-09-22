@@ -40,12 +40,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		82666D1D96CFD82A4E0FC8CD /* Pods-BadgeSegments_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeSegments_Example.debug.xcconfig"; path = "Target Support Files/Pods-BadgeSegments_Example/Pods-BadgeSegments_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9A735384414869F1F5AB6F19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A735384414869F1F5AB6F19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A4124D631522625896A8C9E8 /* Pods_BadgeSegments_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeSegments_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB25F25AB9473E40BDA195B4 /* Pods-BadgeSegments_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeSegments_Example.release.xcconfig"; path = "Target Support Files/Pods-BadgeSegments_Example/Pods-BadgeSegments_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B89225290BFFC52C1C2A0DD6 /* BadgeSegments.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BadgeSegments.podspec; path = ../BadgeSegments.podspec; sourceTree = "<group>"; };
+		B89225290BFFC52C1C2A0DD6 /* BadgeSegments.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BadgeSegments.podspec; path = ../BadgeSegments.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B91B7BBB2324C3CFDA561746 /* Pods-BadgeSegments_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadgeSegments_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BadgeSegments_Tests/Pods-BadgeSegments_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0CE59FD11673A447D8FC55E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C0CE59FD11673A447D8FC55E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF0D772BE83DE1C44D99678B /* Pods_BadgeSegments_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadgeSegments_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				B91B7BBB2324C3CFDA561746 /* Pods-BadgeSegments_Tests.debug.xcconfig */,
 				267FEAA06E6355429DA826CA /* Pods-BadgeSegments_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

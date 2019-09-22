@@ -1,0 +1,22 @@
+{
+  "name": "BadgeSegments",
+  "version": "0.1.0",
+  "summary": "A short description of BadgeSegments.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/morteza.ghrdi@gmail.com/BadgeSegments",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "morteza.ghrdi@gmail.com": "Morteza.ghrdi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/morteza.ghrdi@gmail.com/BadgeSegments.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BadgeSegments/Classes/**/*"
+}
