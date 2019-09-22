@@ -15,10 +15,10 @@ class ViewController: UIViewController, BadgeSegmentDelegate {
         super.viewDidLoad()
 
 
-        let items = [SegmentItem(title: "first",isSelected: false,badgeNumber: 20),
+        let items = [SegmentItem(title: "first",isSelected: false,badgeNumber: 1),
                      SegmentItem(title: "second",isSelected: true),
                      SegmentItem(title: "third",isSelected: false,badgeNumber: 12)]
-        badgeSegment.appearence = .standard
+        badgeSegment.appearence = .underlined
         badgeSegment.delegate = self
         badgeSegment.setUpSegments(with: items)
     }
