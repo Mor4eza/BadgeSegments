@@ -13,5 +13,7 @@ xcode_sdk: iphonesimulator11.0
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild -workspace Example/BadgeSegments.xcworkspace -scheme BadgeSegments-Example | xcpretty
+- set -o pipefail && xcodebuild -workspace Example/BadgeSegments.xcworkspace -scheme BadgeSegments-Example -destination 'platform=iOS Simulator,name=iPhone 6s Plus' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
 - pod lib lint
+
+
