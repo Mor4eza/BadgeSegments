@@ -18,7 +18,7 @@ public struct SegmentItem: SegmentItems {
     var isSelected: Bool
     var badgeNumber: Int
     
-    init(title:String, isSelected: Bool,badgeNumber: Int = 0) {
+   public init(title:String, isSelected: Bool,badgeNumber: Int = 0) {
         self.title = title
         self.isSelected = isSelected
         self.badgeNumber = badgeNumber

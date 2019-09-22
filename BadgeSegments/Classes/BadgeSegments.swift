@@ -8,16 +8,16 @@
 
 import UIKit
 
-protocol BadgeSegmentDelegate {
+public protocol BadgeSegmentDelegate {
     func didSelectSegment(with index:Int)
 }
 
 @IBDesignable
-class BadgeSegments: UIControl {
+public class BadgeSegments: UIControl {
     
     fileprivate var items: [SegmentItem]!
     fileprivate var stackView = UIStackView()
-    var appearence: BSAppearence = .underlined{
+    public var appearence: BSAppearence = .underlined{
         didSet{
             setUpView()
         }
@@ -25,18 +25,18 @@ class BadgeSegments: UIControl {
     fileprivate var selectedIndex: Int = 0
     var titleColor: UIColor = .black
     var underlineColor: UIColor = .black
-    var delegate: BadgeSegmentDelegate?
-    override init(frame: CGRect) {
+    public var delegate: BadgeSegmentDelegate?
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setUpView()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         setUpView()
     }
     
-   fileprivate func setUpView(){
+    func setUpView(){
         
         // Add border
         if appearence == .standard {
@@ -50,14 +50,14 @@ class BadgeSegments: UIControl {
         
     }
     
-    func setBadgeNumber(inIndex index: Int,badgeNum: Int) {
+    public func setBadgeNumber(inIndex index: Int,badgeNum: Int) {
         
         if let bi = self.stackView.arrangedSubviews as? [SegmentItemView] {
                  bi[index].badgeNumber = badgeNum
         }
     }
     
-    func setSelected(inIndex index: Int){
+   public func setSelected(inIndex index: Int){
         
         if let bi = self.stackView.arrangedSubviews as? [SegmentItemView] {
             bi.forEach {
@@ -68,14 +68,14 @@ class BadgeSegments: UIControl {
         }
     }
     
-    func setTitle(inIndex index: Int,title: String) {
+    public func setTitle(inIndex index: Int,title: String) {
         if let bi = self.stackView.arrangedSubviews as? [SegmentItemView] {
             bi[index].title = title
         
         }
     }
     
-    func setUpSegments(with items: [SegmentItem]){
+   public  func setUpSegments(with items: [SegmentItem]){
         self.items = items
         self.addSubview(stackView)
         self.stackView.translatesAutoresizingMaskIntoConstraints = false

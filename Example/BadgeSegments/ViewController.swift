@@ -15,7 +15,9 @@ class ViewController: UIViewController, BadgeSegmentDelegate {
         super.viewDidLoad()
 
 
-        let items = [SegmentItem(title: "first",isSelected: false,badgeNumber: 20),SegmentItem(title: "second",isSelected: true),SegmentItem(title: "third",isSelected: false,badgeNumber: 12)]
+        let items = [SegmentItem(title: "first",isSelected: false,badgeNumber: 20),
+                     SegmentItem(title: "second",isSelected: true),
+                     SegmentItem(title: "third",isSelected: false,badgeNumber: 12)]
         badgeSegment.appearence = .standard
         badgeSegment.delegate = self
         badgeSegment.setUpSegments(with: items)

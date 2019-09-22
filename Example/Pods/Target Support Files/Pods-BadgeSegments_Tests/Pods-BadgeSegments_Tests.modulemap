@@ -1,6 +1,0 @@
-framework module Pods_BadgeSegments_Tests {
-  umbrella header "Pods-BadgeSegments_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
