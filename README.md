@@ -1,6 +1,6 @@
 # BadgeSegments
 
-[![CI Status](https://img.shields.io/travis/morteza.ghrdi@gmail.com/BadgeSegments.svg?style=flat)](https://travis-ci.org/morteza.ghrdi@gmail.com/BadgeSegments)
+[![CI Status](https://img.shields.io/travis/mor4eza/BadgeSegments.svg?style=flat)](https://travis-ci.org/mor4eza/BadgeSegments)
 [![Version](https://img.shields.io/cocoapods/v/BadgeSegments.svg?style=flat)](https://cocoapods.org/pods/BadgeSegments)
 [![License](https://img.shields.io/cocoapods/l/BadgeSegments.svg?style=flat)](https://cocoapods.org/pods/BadgeSegments)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSegments.svg?style=flat)](https://cocoapods.org/pods/BadgeSegments)
