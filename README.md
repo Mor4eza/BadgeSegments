@@ -10,8 +10,11 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- Swift 5
+- iOS =>10
 
 ## Installation
+**Cocoapods**
 
 BadgeSegments is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -19,10 +22,58 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'BadgeSegments'
 ```
+**Manual**
 
-## Author
+simply copy classes folder to your project directory
 
-morteza.ghrdi@gmail.com, Morteza.ghrdi@gmail.com
+# How to Use
+
+  add a UIView to your view Controller and sub class it from BadgeSegments class
+  ```swift
+  @IBOutlet weak var badgeSegment: BadgeSegments!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+
+          let items = [SegmentItem(title: "first",isSelected: false,badgeNumber: 20),
+                     SegmentItem(title: "second",isSelected: true),
+                     SegmentItem(title: "third",isSelected: false,badgeNumber: 12)]
+        badgeSegment.appearence = .standard
+        badgeSegment.delegate = self
+        badgeSegment.setUpSegments(with: items)
+    }
+  ```
+  **Delegate**
+  ```swift
+  class ViewController: UIViewController, BadgeSegmentDelegate {
+  
+     func didSelectSegment(with index: Int) {
+        print(index)
+     }
+    
+  
+  }
+  ```
+  **Change Values**
+  ```swift
+   badgeSegment.setTitle(inIndex: 0, title: "changed")
+        badgeSegment.setSelected(inIndex: 2)
+        badgeSegment.setBadgeNumber(inIndex: 1, badgeNum: 12)
+  
+  ```
+
+# TO Do
+- [ ] add animation
+- [ ] more default appearences
+- [ ] support images
+- [ ] customize badge view
+- [ ] add UITest and UnitTest
+
+
+# Made with Love in 🇮🇷
+Morteza Gharedaghi: Morteza.ghrdi@gmail.com
+
+
 
 ## License
 
